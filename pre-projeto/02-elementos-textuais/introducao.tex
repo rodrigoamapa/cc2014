@@ -1,0 +1,73 @@
+%
+% Documento: Introdução
+%
+
+\chapter{Introdução}\label{chap:introducao}  
+
+O presente trabalho aborda o contexto dos sistemas de georreferenciamento de tempo real, que, usualmente necessitam de abordagens escaláveis para o gerenciamento e o armazenamento de grandes quantidades de dados, mas que tradicionalmente são implementados para funcionarem sobre sistemas de bancos de dados relacionais, que dispõem de pouca escalabilidade para armazenar e gerenciar excessivos volumes de dados produzidos em baixa latência de tempo. Para contornar essa situação, esta pesquisa visa apresentar uma solução viável para essa problemática, onde ela será utilizada para a geolocalização de viatura da Guarda Civil Municipal de Macapá. Nesse trabalho, os aspectos essenciais da pesquisa proposta são apresentados e discutidos, tais como: a problemática a ser solucionada, os objetivos e justificativas, a metodologia e o cronograma de atividades a serem realizadas e desenvolvidas. Ao final desse capítulo introdutório, também é apresentada a organização do trabalho proposto.
+
+\section {Contexto}
+
+Muitos sistemas de georreferenciamento de tempo real utilizam os conceitos de \textit{"Internet of Things"}, de forma a possibilitar que aparelhos eletrônicos compartilhem dados de localização \cite{Vega}. Esse compartilhamento de dados georreferenciados vem sendo utilizado em diversos domínios de aplicações, que vão desde as situações de desastes naturais, onde usuários envolvidos em operações de proteção civíl necessitam de graus eficientes e eficazes de coordenação \cite{Barroso}; até para medição remota, armazenamento, processamento e visualização de informações químicas \cite{Vega}.
+
+\section{Problemática}
+
+Como este trabalho conterá experimentação de aplicações que envolvem Banco de Dados, \textit{Big data} e Georreferenciamento é importante destacar que:
+
+Na sociedade atual são crescentes os dispositivos que se conectam à internet e dispõem informações que podem ser usadas e podem ser aproveitadas para diversas aplicações computacionais\cite{Vega}. Dentre elas existem as que apresentam informações e cálculos de lugares, distâncias, clima, altura, velocidade, em que é muito comum o desenvolvimento de Sistemas de Informações Geográficos (SIG’s)\cite{Vega}. Esses sistemas são capazes de armazenar dados cartográficos, censitários, cadastros urbano e rural e imagens de satélite, dispondo de mecanismos para tratar as informações, assim como para consultar, recuperar, visualizar e plotar o material na base de dados georreferenciados\cite{Vega}.
+
+Geralmente os dados gerados por Sistemas de Informações Geográficas ou Geoespaciais são dinâmicos, pois para se obter precisão é necessário que esses dados sejam atualizados em tempo real, acumulando um grande volume de dados para serem armazenados em um banco de dados do tipo relacional\cite{Prikh}.
+
+Por esse motivo, faz-se necessário experimentar outro tipo de banco de dados, em que seja suportado um grande fluxo, com maior escalabilidade e tempo de resposta na transição de informações georreferenciais.
+
+\section{Objetivos}
+Os objetivos do presente trabalho de pesquisa são apresentados em torno de um único objetivo geral e quatro objetivos específicos.
+
+\subsection{Objetivo Geral}
+
+Avaliar o sistema de bancos de dados não relacional orientado a coluna HBase no armazenamento e no gerenciamento de volumes de dados georreferenciados de tempo real, no contexto da geolocalização de viaturas da Guarda Municipal de Macapá.
+
+\subsection {Objetivos Específicos}
+
+O presente trabalho de pesquisa tem os seguintes objetivos específicos:
+
+\begin{itemize}
+	\item Estudar o contexto dos sistemas de geolocalização em tempo real.
+	\item Avaliar sistemas de banco de dados escaláveis para grandes volumes de dados.
+	\item Propor um estudo de caso para avaliar e comparar banco de dados relacionais e banco de dados não-relacional HBase para armazenarem e gerenciarem excessivos volumes de dados georreferenciados de tempo real, produzidos em baixa latência.
+	 
+\end{itemize}
+
+\section {Hipótese}
+
+HBase é um sistema de banco de dados não relacional orientado a coluna, capaz de fornecer escalabilidade ilimitada e vertical;e mecanismos eficientes de gerenciamento de grandes volumes de dados georreferenciados de tempo real.
+
+\section {Justificativa}
+Muitos estudiosos no Brasil têm dado destaque à Segurança Pública como um dos pilares da Ordem Social. Mais especificamente, em Macapá, de acordo com dados do Fórum Brasileiro de Segurança Pública \cite{forumdeseguranca:2018}, a capital amapaense possui um dos piores cenários com relação à Segurança e os órgãos públicos envolvidos necessitam cada vez mais de investimentos para mudar esse cenário. Um dos investimentos que se pode fazer é na tecnologia computacional para se obter estratégias preventivas no combate ao crime das áreas urbanas.
+
+Isso porque, de acordo com o Instituto Brasileiro de Geografia e Estatística, três em cada quatro domicílios do país possuem acesso à internet\cite{IBGE-2018}.
+
+Dentre as diversas ferramentas tecnológicas desenvolvidas para auxiliar no combate da criminalidade, a Internet Of Things -- IOT, surge com uma grande diversidade de opções que podem ser adotadas pelos agentes de Segurança Pública, principalmente no que se refere a registro de informações em tempo real e tomada de decisões com base em sistemas ágeis.
+
+Aliada a internet das coisas, o registro de informações em banco de dados que possam obter um maior desempenho com um grande fluxo de dados em tempo real pode ser desempenhado com a tecnologia da Apache HBase, pois:
+
+O Apache HBase é um banco de dados de código aberto NoSQL que fornece acesso de leitura/gravação em tempo real a esses grandes conjuntos de dados\cite{CETAX}
+
+Dentre metodologia a ser aplicada e as respostas adquiridas na coleta de dados, pode-se apresentar uma possível ferramenta na contribuição dos esforços das forças de Segurança Pública para o combate à criminalidade e resolução de conflitos nas áreas urbanas de Macapá.
+ 
+Pelo motivo supracitado, apresenta-se no presente trabalho uma abordagem computacional, utilizando tecnologias correlacionadas de Internet Das Coisas, Georreferenciamento e \textit{Big Data} a fim de experimentar ferramentas digitais para uso das forças de Segurança Pública, no caso aqui abordado, a Guarda Civil Municipal de Macapá.
+
+\section {Metodologia}
+Para o desenvolvimento e experimentação do trabalho proposto serão utilizados procedimentos metodológicos divididos em duas etapas. O referencial bibliográfico e a experimentação científica.
+
+O referencial bibliográfico (citar autor) destaca não somente a pesquisa textual, mas a base para argumentação, além do desenvolvimento dos códigos a serem usados nos aplicativos dos testes computacionais.
+
+Já a experimentação científica (citar autor) tem como proposta os testes e a coleta de dados para que depois sejam levantadas conclusões com base em análises objetivas ou subjetivas feitas por meio de números ou percentuais.
+
+Como base para o trabalho foi utilizado o artigo, da empresa IBM\cite{IBM}, que é um tutorial para o desenvolvimento de um aplicativo para celular. Tal aplicação usa o GPS do aparelho para enviar informações de geolocalização (latitudes e longitudes) para um ambiente de nuvem da própria IBM.
+
+Esses dados podem ser consumidos por outra ferramenta digital, neste caso, seguindo o artigo de tutorial, os dados foram aproveitados por um sistema \textit{web} escrito em linguagem PHP, usando o protocolo MQTT, para intercomunicação entre as aplicações do hardware do celular, da nuvem e do computador de visualização. Esse esquema pode ser melhor visualizado na Lista de Figuras.
+
+Maiores detalhes desta abordagem serão apresentados nos próximos capítulos.
+
+Vale salientar que, embora haja neste trabalho uma contribuição de escrita no código e modificações nos aplicativos seguidos no tutorial da IBM, o objetivo central aqui proposto não está focado no desenvolvimento da ferramenta, mas na utilidade de sua aplicabilidade. Sendo assim, os resultados a serem alcançados tentarão satisfazer as hipóteses levantadas. 

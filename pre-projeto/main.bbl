@@ -1,0 +1,37 @@
+\begin{thebibliography}{1}
+
+\bibitem{Vega}
+F.~Vega, J.~Pantoja, S.~Morales, O.~Urbano, A.~Arevalo, E.~Muskus, C.~Pedraza,
+  M.~Patino, M.~Suarez, and N.~Hernandez, ``An iot-based open platform for
+  monitoring non-ionizing radiation levels in colombia,'' in {\em 2016 IEEE
+  Colombian Conference on Communications and Computing (COLCOM)}, pp.~1--4,
+  April 2016.
+
+\bibitem{Barroso}
+T.~Barroso, J.~Sanguino, and A.~Rodrigues, ``Georeferencing for coordinated
+  positioning applications,'' in {\em 2011 The 14th International Symposium on
+  Wireless Personal Multimedia Communications (WPMC)}, pp.~1--5, Oct 2011.
+
+\bibitem{Prikh}
+P.~Parikh and T.~D. Nielsen, ``Iee colloquium on 'experience in the use of
+  geographic information systems in the electricity supply industry (digest
+  no.129),'' in {\em IEE Colloquium on Experience in the Use of Geographic
+  Information Systems in the Electricity Supply Industry}, pp.~1--5, Oct 2011.
+
+\bibitem{forumdeseguranca:2018}
+forum~de segurança, ``Atlas da violência 2018 - infográfico,'' {\em Forum
+  Web}, vol.~1, no.~3, p.~1, 2018.
+
+\bibitem{IBGE-2018}
+E.~Sociais, ``Pnad contínua tic 2017: Internet chega a três em cada quatro
+  domicílios do país,'' {\em Agencia de Notícias - IBGE}.
+
+\bibitem{CETAX}
+S.~Filipa, ``Apache hbase: O que é, conceitos e definições,'' {\em CETAX},
+  no.~-, p.~5, 2019.
+
+\bibitem{IBM}
+V.~Vaswani, ``Desenvolva um aplicativo em php que use dados de gps de um
+  dispositivo iot.''
+
+\end{thebibliography}
