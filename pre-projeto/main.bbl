@@ -1,5 +1,13 @@
 \begin{thebibliography}{1}
 
+\bibitem{IBGE-2018}
+E.~Sociais, ``Pnad contínua tic 2017: Internet chega a três em cada quatro
+  domicílios do país,'' {\em Agencia de Notícias - IBGE}.
+
+\bibitem{Magrani-2018}
+E.~Magrani, {\em A Internet Das Coisas}, vol.~único.
+\newblock 1ª~ed.
+
 \bibitem{Vega}
 F.~Vega, J.~Pantoja, S.~Morales, O.~Urbano, A.~Arevalo, E.~Muskus, C.~Pedraza,
   M.~Patino, M.~Suarez, and N.~Hernandez, ``An iot-based open platform for
@@ -22,13 +30,12 @@ P.~Parikh and T.~D. Nielsen, ``Iee colloquium on 'experience in the use of
 forum~de segurança, ``Atlas da violência 2018 - infográfico,'' {\em Forum
   Web}, vol.~1, no.~3, p.~1, 2018.
 
-\bibitem{IBGE-2018}
-E.~Sociais, ``Pnad contínua tic 2017: Internet chega a três em cada quatro
-  domicílios do país,'' {\em Agencia de Notícias - IBGE}.
-
 \bibitem{CETAX}
 S.~Filipa, ``Apache hbase: O que é, conceitos e definições,'' {\em CETAX},
   no.~-, p.~5, 2019.
+
+\bibitem{Jacobsen-metodologia}
+P.~Jacobsen, ``Como escolher o método de pesquisa.''
 
 \bibitem{IBM}
 V.~Vaswani, ``Desenvolva um aplicativo em php que use dados de gps de um

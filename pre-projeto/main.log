@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.9.16)  29 JAN 2019 16:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.9.16)  6 FEB 2019 02:56
 entering extended mode
 **./main.tex
 (main.tex
@@ -1148,19 +1148,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 35.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 37.
 
 ("C:\Users\rodri\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omsppl.fd"
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
-[2] [3]) [4]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
+[2] [3] [4]) [5]
 \openout2 = `./03-elementos-pos-textuais/referencias.aux'.
 
  (03-elementos-pos-textuais/referencias.tex (main.bbl
 bibitemlist
-)) [5
+)) [6
 
 
 
@@ -1190,22 +1190,22 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 109.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
  ) 
 Here is how much of TeX's memory you used:
- 15992 strings out of 492973
- 248230 string characters out of 3126692
- 436005 words of memory out of 3000000
- 19325 multiletter control sequences out of 15000+200000
- 40228 words of font info for 164 fonts, out of 3000000 for 9000
+ 16003 strings out of 492973
+ 248253 string characters out of 3126692
+ 436083 words of memory out of 3000000
+ 19332 multiletter control sequences out of 15000+200000
+ 41834 words of font info for 166 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,13n,42p,1080b,429s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,13n,42p,1080b,447s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/rodri/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
 }<C:/Users/rodri/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw
 /palatino/uplb8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/urw/palatino/uplr8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX 2.9/f
 onts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (16 pages, 172341 bytes).
+Output written on main.pdf (17 pages, 176624 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
- 53 named destinations out of 1000 (max. 500000)
- 34982 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 233 PDF objects out of 1000 (max. 8388607)
+ 56 named destinations out of 1000 (max. 500000)
+ 35494 words of extra memory for PDF output out of 35830 (max. 10000000)
 

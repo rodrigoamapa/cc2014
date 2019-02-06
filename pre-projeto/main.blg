@@ -28,5 +28,10 @@ I'm skipping whatever remains of this entry
 I'm skipping whatever remains of this entry
 Warning--entry type for "IBM" isn't style-file defined
 --line 203 of file ./refbase.bib
+Warning--entry type for "Jacobsen-metodologia" isn't style-file defined
+--line 218 of file ./refbase.bib
 Warning--empty year in IBGE-2018
+Warning--can't use both author and editor fields in Magrani-2018
+Warning--empty publisher in Magrani-2018
+Warning--empty year in Magrani-2018
 (There were 3 error messages)

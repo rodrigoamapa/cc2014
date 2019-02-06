@@ -8,7 +8,9 @@ O presente trabalho aborda o contexto dos sistemas de georreferenciamento de tem
 
 \section {Contexto}
 
-Muitos sistemas de georreferenciamento de tempo real utilizam os conceitos de \textit{"Internet of Things"}, de forma a possibilitar que aparelhos eletrônicos compartilhem dados de localização \cite{Vega}. Esse compartilhamento de dados georreferenciados vem sendo utilizado em diversos domínios de aplicações, que vão desde as situações de desastes naturais, onde usuários envolvidos em operações de proteção civíl necessitam de graus eficientes e eficazes de coordenação \cite{Barroso}; até para medição remota, armazenamento, processamento e visualização de informações químicas \cite{Vega}.
+Este trabalho apresenta o tema acerca de como soluções computacionais podem ser usadas para resoluções de problemas sociais. Mais especificamente, com o número crescente de dispositivos e pessoas conectados à internet \cite{IBGE-2018}, muitos órgãos governamentais e não-governamentais têm utilizado sistemas informatizados para obter informações relevantes sobre dados dos mais variados tipos para que se possam obter, a partir desses dados, novas informações específicas, como estatísticas, variações de velocidade, taxas de consumo, mapeamento de regiões, dentre outros que podem estar em um universo comumente conhecido como Internet das Coisas, do termo original, em inglês, \textit{Internet Of Things}\cite{Magrani-2018}.
+
+Muitos sistemas de georreferenciamento de tempo real utilizam os conceitos de \textit{"Internet of Things"}, de forma a possibilitar que aparelhos eletrônicos compartilhem dados de localização \cite{Vega}. Esse compartilhamento de dados georreferenciados são utilizados em diversos domínios de aplicações, que vão desde as situações de desastes naturais, onde usuários envolvidos em operações de proteção civil necessitam de graus eficientes e eficazes de coordenação \cite{Barroso}; até para medição remota, armazenamento, processamento e visualização de informações químicas \cite{Vega}.
 
 \section{Problemática}
 
@@ -21,7 +23,7 @@ Geralmente os dados gerados por Sistemas de Informações Geográficas ou Geoesp
 Por esse motivo, faz-se necessário experimentar outro tipo de banco de dados, em que seja suportado um grande fluxo, com maior escalabilidade e tempo de resposta na transição de informações georreferenciais.
 
 \section{Objetivos}
-Os objetivos do presente trabalho de pesquisa são apresentados em torno de um único objetivo geral e quatro objetivos específicos.
+Os objetivos do presente trabalho de pesquisa são apresentados em torno de um único objetivo geral e três objetivos específicos.
 
 \subsection{Objetivo Geral}
 
@@ -40,7 +42,7 @@ O presente trabalho de pesquisa tem os seguintes objetivos específicos:
 
 \section {Hipótese}
 
-HBase é um sistema de banco de dados não relacional orientado a coluna, capaz de fornecer escalabilidade ilimitada e vertical;e mecanismos eficientes de gerenciamento de grandes volumes de dados georreferenciados de tempo real.
+HBase é um sistema de banco de dados não relacional orientado a coluna, capaz de fornecer escalabilidade ilimitada e vertical; e mecanismos eficientes de gerenciamento de grandes volumes de dados georreferenciados de tempo real.
 
 \section {Justificativa}
 Muitos estudiosos no Brasil têm dado destaque à Segurança Pública como um dos pilares da Ordem Social. Mais especificamente, em Macapá, de acordo com dados do Fórum Brasileiro de Segurança Pública \cite{forumdeseguranca:2018}, a capital amapaense possui um dos piores cenários com relação à Segurança e os órgãos públicos envolvidos necessitam cada vez mais de investimentos para mudar esse cenário. Um dos investimentos que se pode fazer é na tecnologia computacional para se obter estratégias preventivas no combate ao crime das áreas urbanas.
@@ -60,9 +62,18 @@ Pelo motivo supracitado, apresenta-se no presente trabalho uma abordagem computa
 \section {Metodologia}
 Para o desenvolvimento e experimentação do trabalho proposto serão utilizados procedimentos metodológicos divididos em duas etapas. O referencial bibliográfico e a experimentação científica.
 
-O referencial bibliográfico (citar autor) destaca não somente a pesquisa textual, mas a base para argumentação, além do desenvolvimento dos códigos a serem usados nos aplicativos dos testes computacionais.
+O referencial bibliográfico destaca não somente a pesquisa textual, mas a base para argumentação, além do desenvolvimento dos códigos a serem usados nos aplicativos dos testes computacionais.
 
-Já a experimentação científica (citar autor) tem como proposta os testes e a coleta de dados para que depois sejam levantadas conclusões com base em análises objetivas ou subjetivas feitas por meio de números ou percentuais.
+Para isto será utilizada a revisão de literatura \textit{Ad Hoc} que é um método em que a revisão é feita de forma livre, sem o uso de guias ou fases a serem seguidas\cite{Jacobsen-metodologia}.
+
+Já a experimentação científica tem como proposta os testes e a coleta de dados para que depois sejam levantadas conclusões com base em análises objetivas ou subjetivas feitas por meio de números ou percentuais.
+
+Desta forma o método a ser usado será o Estudo de Caso, em que um determinado fenômeno será analisado, em seu ambiente e curso naturais depois da utilização de um software\cite{Jacobsen-metodologia}.
+
+E ainda, vale destacar a utilização do método de "Metanálise", pois a partir dele é possível fazer estudos que integram resultados sobre determinada questão pesquisada, combinando e fazendo comparativos entre eles\cite{Jacobsen-metodologia}. Esse método será usado, principalmente no comparativo dos Sistemas de Gerenciamento de Banco de Dados (SGBDs), em que diferentes softwares serão testados, como \textit{MySQL}, \textit{PostgreeSQL} e a plataforma \textit{Apache Hadoop}. 
+
+<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>
+Esta parte aqui debaixo será analisada pelo professor Thiago, pois pode não ser necessária a inclusão dela neste momento.
 
 Como base para o trabalho foi utilizado o artigo, da empresa IBM\cite{IBM}, que é um tutorial para o desenvolvimento de um aplicativo para celular. Tal aplicação usa o GPS do aparelho para enviar informações de geolocalização (latitudes e longitudes) para um ambiente de nuvem da própria IBM.
 
