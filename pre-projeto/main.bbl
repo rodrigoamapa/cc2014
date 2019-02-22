@@ -1,8 +1,23 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{IBGE-2018}
 E.~Sociais, ``Pnad contínua tic 2017: Internet chega a três em cada quatro
   domicílios do país,'' {\em Agencia de Notícias - IBGE}.
+
+\bibitem{Ashton-2016}
+
+
+\bibitem{Kotaro-2005}
+O.~K. Takai, I.~cristina Italiano, and J.~E. Ferreira, ``Introdução a banco
+  de dados,'' {\em IME-USP}, vol.~único, p.~124, 2005.
+
+\bibitem{C.Date}
+C.~Date, {\em Introdução a Sistemas de Bancos de Dados}, vol.~1.
+\newblock 7~ed.
+
+\bibitem{Taurion-big-data}
+C.~Taurion, {\em Big Data}, vol.~1.
+\newblock 1~ed.
 
 \bibitem{Magrani-2018}
 E.~Magrani, {\em A Internet Das Coisas}, vol.~único.
@@ -19,6 +34,12 @@ F.~Vega, J.~Pantoja, S.~Morales, O.~Urbano, A.~Arevalo, E.~Muskus, C.~Pedraza,
 T.~Barroso, J.~Sanguino, and A.~Rodrigues, ``Georeferencing for coordinated
   positioning applications,'' in {\em 2011 The 14th International Symposium on
   Wireless Personal Multimedia Communications (WPMC)}, pp.~1--5, Oct 2011.
+
+\bibitem{Park-Big-Data}
+K.~{Park}, M.~C. {Nguyen}, and H.~{Won}, ``Web-based collaborative big data
+  analytics on big data as a service platform,'' in {\em 2015 17th
+  International Conference on Advanced Communication Technology (ICACT)},
+  pp.~564--567, July 2015.
 
 \bibitem{Prikh}
 P.~Parikh and T.~D. Nielsen, ``Iee colloquium on 'experience in the use of

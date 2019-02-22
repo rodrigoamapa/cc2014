@@ -8,15 +8,44 @@ O presente trabalho aborda o contexto dos sistemas de georreferenciamento de tem
 
 \section {Contexto}
 
-Este trabalho apresenta o tema acerca de como soluções computacionais podem ser usadas para resoluções de problemas sociais. Mais especificamente, com o número crescente de dispositivos e pessoas conectados à internet \cite{IBGE-2018}, muitos órgãos governamentais e não-governamentais têm utilizado sistemas informatizados para obter informações relevantes sobre dados dos mais variados tipos para que se possam obter, a partir desses dados, novas informações específicas, como estatísticas, variações de velocidade, taxas de consumo, mapeamento de regiões, dentre outros que podem estar em um universo comumente conhecido como Internet das Coisas, do termo original, em inglês, \textit{Internet Of Things}\cite{Magrani-2018}.
+De acordo com uma pesquisa realizada pelo IBGE, cada vez mais residências no Brasil têm computadores ou outros dispositivos conectados à internet\cite{IBGE-2018}. Isto mostra que as informações digitais estão cada vez mais presentes no cotidiano da sociedade e não apenas nos negócios.
+
+Para Kevin Ashton, as pessoas costumavam guardar seus objetos em gavetas de armários, dentro de cômodas, cofres e até debaixo da cama, depois da digitalização deles, passaram a guardar em banco de dados \cite{Ashton-2016}.
+
+Os Banco de Dados foram criados para guardar informações. Elas podem ser de diferentes tamanhos e formatos que ficam armazenados em espaços organizados e categorizados\cite{Kotaro-2005}.
+
+A organização dos Dados dentro de um Banco de Dados pode variar, mas geralmente, possui quatro operações básicas, dentre elas: adicionar, remover, copiar e atualizar os dados. Essas operações geralmente são realizadas por um software que gerencia e controla todo o fluxo que se passa em um Banco de Dados. Esses softwares são chamados de Sistemas de Gerenciamento de Banco de Dados -- SGBD\cite{C.Date}.
+
+Inicialmente os dados computacionais eram armazenados em arquivos\cite{Kotaro-2005}, o que dificultava seu gerenciamento porque todas as informações eram postas de forma desorganizada e não categorizada, fazendo com que uma busca, por exemplo, fosse uma tarefa complicada. Além das informações estarem desorganizadas, ainda havia o problema da confiabilidade e a durabilidade dos dados armazenados, comprometendo, de forma geral, a segurança das informações, pois quem tivesse acesso ao computador onde os dados fossem armazenados, poderia manipular o arquivo, comprometendo tudo e, ainda, qualquer pane que o computador apresentasse iria influenciar no registro de informações\cite{Kotaro-2005}.
+
+Posteriormente, as informações foram melhor organizadas em colunas e linhas, formando tabelas, conhecidas como relações, o que permitiu muitas soluções a problemas de armazenamento para as corporações e para os sistemas gerenciadores de banco de dados\cite{C.Date}.
+
+Durante a década de 1960 vários estudos foram realizados para formação de diferentes modelos de Banco de Dados, como o Hierárquico e o de Redes. Entretanto, foi a partir da década seguinte, em 1970, com a publicação do artigo \textit{A Relational Model of Data for Large Shared Data Banks}, de Edgar Frank Codd, que foi apresentado o modelo Relacional\cite{C.Date}.
+
+O modelo relacional surgiu para aumentar a independência dos Dados nos SGBDs e para compor uma estrutura mais sólida e durável para o armazenamento e recuperação dos dados \cite{Kotaro-2005}. Com esse modelo, algumas características que outros modelos não possuíam surgiram, como não ter caminhos pré-definidos para se fazer acesso aos dados; implementar estruturas de dados organizadas em relações e; restrição de repetição de informações \cite{Kotaro-2005}.
+
+Com a popularização e aperfeiçoamento do modelo relacional e utilização da linguagem SQL pelos Sistemas de Gerenciamento de Banco de Dados, por muitos anos as corporações e até mesmo donos de sites utilizaram os Banco de Dados Relacionais como armazenamento de suas informações\cite{Taurion-big-data}. Como os dispositivos conectados a internet passaram a ser domésticos, o fluxo de dados aumentou exponencialmente, exigindo tanto uma maior capacidade e velocidade da Internet quanto do armazenamento digital\cite{Taurion-big-data}.
+
+Tendo em vista número crescente de dispositivos e pessoas conectados à internet \cite{IBGE-2018}, muitos órgãos governamentais e não-governamentais têm utilizado sistemas informatizados para obter informações relevantes sobre dados dos mais variados tipos para que se possam obter, a partir desses dados, novas informações específicas, como estatísticas, variações de velocidade, taxas de consumo, mapeamento de regiões, dentre outros que podem estar em um universo comumente conhecido como Internet das Coisas, do termo original, em inglês, \textit{Internet Of Things}\cite{Magrani-2018}.
 
 Muitos sistemas de georreferenciamento de tempo real utilizam os conceitos de \textit{"Internet of Things"}, de forma a possibilitar que aparelhos eletrônicos compartilhem dados de localização \cite{Vega}. Esse compartilhamento de dados georreferenciados são utilizados em diversos domínios de aplicações, que vão desde as situações de desastes naturais, onde usuários envolvidos em operações de proteção civil necessitam de graus eficientes e eficazes de coordenação \cite{Barroso}; até para medição remota, armazenamento, processamento e visualização de informações químicas \cite{Vega}.
 
+O pesquisador Cézar Taurion da Universidade de São Paulo explica que todos os dados gerados por grandes empresas, redes sociais, sensores e dispositivos de diferentes formas formam volumes que ultrapassam a unidade dos zetabytes ou 10(elevado a 21) bytes\cite{Taurion-big-data}, compondo o que é conhecido como \textit{Big Data}.
+
+Taurion ainda apresenta dois conceitos de \textit{Big Data}. O primeiro se refere a um conjunto de dados cujo crescimento é exponencial e cuja dimensão está além da habilidade das ferramentas típicas de capturar, gerenciar e analisar dados\cite{Taurion-big-data}. O segundo diz que \textit{Big Data} é o termo usado pelo mercado para descrever problemas no gerenciamento de processamento de informações em grandes volumes as quais ultrapassam a capacidade das tecnologias de informações tradicionais ao longo de uma ou mais dimensões\cite{Taurion-big-data}.
+
+Como os dados têm aumentado de forma explosiva devido ao desenvolvimento de redes sociais e computação em nuvem, tem havido um novo desafio para armazenar, processar e analisar um grande volume de dados. As tecnologias tradicionais não se tornam uma solução adequada para processar big data, de modo que uma plataforma de big data começou a surgir\cite{Park-Big-Data}. 
+
+Para esses problemas citados, tecnologias foram desenvolvidas especificamente para tratar grandes volumes de informações e diversificadas fontes de geração de tais dados. Uma solução seria a adoção da linguagem NoSQL (Not Only SQL), onde a construção das tabelas é diferente da tradicional e formada para os mais variados tipos; Outro método adotado seria o uso dos Banco de Dados Não Relacionais; Uma outra abordagem seria os Sistemas em Nuvem\cite{Taurion-big-data}.
+ 
 \section{Problemática}
+
+(Sistemas de georeferenciamento armazenam grandes volumes de dados, os quais os bancos de dados não relacionais não conseguem suportar).
+
 
 Como este trabalho conterá experimentação de aplicações que envolvem Banco de Dados, \textit{Big data} e Georreferenciamento é importante destacar que:
 
-Na sociedade atual são crescentes os dispositivos que se conectam à internet e dispõem informações que podem ser usadas e podem ser aproveitadas para diversas aplicações computacionais\cite{Vega}. Dentre elas existem as que apresentam informações e cálculos de lugares, distâncias, clima, altura, velocidade, em que é muito comum o desenvolvimento de Sistemas de Informações Geográficos (SIG’s)\cite{Vega}. Esses sistemas são capazes de armazenar dados cartográficos, censitários, cadastros urbano e rural e imagens de satélite, dispondo de mecanismos para tratar as informações, assim como para consultar, recuperar, visualizar e plotar o material na base de dados georreferenciados\cite{Vega}.
+Na sociedade atual são crescentes os dispositivos que se conectam à internet e dispõem informações que podem ser usadas e podem ser aproveitadas para diversas aplicações computacionais\cite{Vega}. Dentre elas existem as que apresentam informações e cálculos de lugares, distâncias, clima, altura, velocidade, em que é muito comum o desenvolvimento de Sistemas de Informações Geográficos (SIG’s) \cite{Vega}. Esses sistemas são capazes de armazenar dados cartográficos, censitários, cadastros urbano e rural e imagens de satélite, dispondo de mecanismos para tratar as informações, assim como para consultar, recuperar, visualizar e plotar o material na base de dados georreferenciados\cite{Vega}.
 
 Geralmente os dados gerados por Sistemas de Informações Geográficas ou Geoespaciais são dinâmicos, pois para se obter precisão é necessário que esses dados sejam atualizados em tempo real, acumulando um grande volume de dados para serem armazenados em um banco de dados do tipo relacional\cite{Prikh}.
 
