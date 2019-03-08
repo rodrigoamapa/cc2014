@@ -5,7 +5,7 @@ E.~Sociais, ``Pnad contínua tic 2017: Internet chega a três em cada quatro
   domicílios do país,'' {\em Agencia de Notícias - IBGE}.
 
 \bibitem{Ashton-2016}
-
+K.~Ashton, ``Beginning the internet of things,'' {\em Medium}, p.~1, 2016.
 
 \bibitem{Kotaro-2005}
 O.~K. Takai, I.~cristina Italiano, and J.~E. Ferreira, ``Introdução a banco
@@ -47,13 +47,27 @@ P.~Parikh and T.~D. Nielsen, ``Iee colloquium on 'experience in the use of
   no.129),'' in {\em IEE Colloquium on Experience in the Use of Geographic
   Information Systems in the Electricity Supply Industry}, pp.~1--5, Oct 2011.
 
-\bibitem{forumdeseguranca:2018}
-forum~de segurança, ``Atlas da violência 2018 - infográfico,'' {\em Forum
-  Web}, vol.~1, no.~3, p.~1, 2018.
+\bibitem{OUSSOUS-Big-Data}
+A.~Oussous, F.-Z. Benjelloun, A.~A. Lahcen, and S.~Belfkih, ``Big data
+  technologies: A survey,'' {\em Journal of King Saud University - Computer and
+  Information Sciences}, vol.~30, no.~4, pp.~431 -- 448, 2018.
 
-\bibitem{CETAX}
-S.~Filipa, ``Apache hbase: O que é, conceitos e definições,'' {\em CETAX},
-  no.~-, p.~5, 2019.
+\bibitem{Chu-Li-justifica}
+S.~{He}, L.~{Chu}, and X.~{Li}, ``Spatial query processing for location based
+  application on hbase,'' in {\em 2017 IEEE 2nd International Conference on Big
+  Data Analysis (ICBDA)(}, pp.~110--114, March 2017.
+
+\bibitem{Huang-et-al-justifica}
+J.~{Huang}, X.~{Ouyang}, J.~{Jose}, M.~{Wasi-ur-Rahman}, H.~{Wang}, M.~{Luo},
+  H.~{Subramoni}, C.~{Murthy}, and D.~K. {Panda}, ``High-performance design of
+  hbase with rdma over infiniband,'' in {\em 2012 IEEE 26th International
+  Parallel and Distributed Processing Symposium}, pp.~774--785, May 2012.
+
+\bibitem{Jim-etal-justifica}
+Y.~{Jin}, T.~{Deyu}, and Z.~{Yi}, ``A distributed storage model for ehr based
+  on hbase,'' in {\em 2011 International Conference on Information Management,
+  Innovation Management and Industrial Engineering}, vol.~2, pp.~369--372, Nov
+  2011.
 
 \bibitem{Jacobsen-metodologia}
 P.~Jacobsen, ``Como escolher o método de pesquisa.''

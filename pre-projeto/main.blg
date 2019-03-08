@@ -14,29 +14,15 @@ A level-1 auxiliary file: ./01-elementos-pre-textuais/sumario.aux
 A level-1 auxiliary file: ./02-elementos-textuais/introducao.aux
 A level-1 auxiliary file: ./03-elementos-pos-textuais/referencias.aux
 Database file #1: ./refbase.bib
-I was expecting a `,' or a `}'---line 170 of file ./refbase.bib
+I was expecting a `,' or a `}'---line 211 of file ./refbase.bib
  :  title 
  :        = "O Impacto das Novas Tecnologias na Sociedade: Conceitos e Características da Sociedade da informação e da Sociedade Digital",
 I'm skipping whatever remains of this entry
-Warning--string name "beginning" is undefined
---line 207 of file ./refbase.bib
-I was expecting a `,' or a `}'---line 207 of file ./refbase.bib
- :  title = beginning 
- :                    the Internet Of Things,
-I'm skipping whatever remains of this entry
-""" immediately follows an entry type---line 212 of file ./refbase.bib
- :  url = "https://medium.com/@kevin_ashton/beginning-the-internet-of-things-6d5ab6178801
- :                                                                                       "
-I'm skipping whatever remains of this entry
 Warning--entry type for "IBM" isn't style-file defined
---line 216 of file ./refbase.bib
+--line 286 of file ./refbase.bib
 Warning--entry type for "Jacobsen-metodologia" isn't style-file defined
---line 238 of file ./refbase.bib
+--line 308 of file ./refbase.bib
 Warning--empty year in IBGE-2018
-Warning--empty author in Ashton-2016
-Warning--empty title in Ashton-2016
-Warning--empty journal in Ashton-2016
-Warning--empty year in Ashton-2016
 Warning--can't use both author and editor fields in C.Date
 Warning--empty publisher in C.Date
 Warning--empty year in C.Date
@@ -46,4 +32,4 @@ Warning--empty year in Taurion-big-data
 Warning--can't use both author and editor fields in Magrani-2018
 Warning--empty publisher in Magrani-2018
 Warning--empty year in Magrani-2018
-(There were 3 error messages)
+(There was 1 error message)

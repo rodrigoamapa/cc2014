@@ -30,7 +30,7 @@ Tendo em vista número crescente de dispositivos e pessoas conectados à interne
 
 Muitos sistemas de georreferenciamento de tempo real utilizam os conceitos de \textit{"Internet of Things"}, de forma a possibilitar que aparelhos eletrônicos compartilhem dados de localização \cite{Vega}. Esse compartilhamento de dados georreferenciados são utilizados em diversos domínios de aplicações, que vão desde as situações de desastes naturais, onde usuários envolvidos em operações de proteção civil necessitam de graus eficientes e eficazes de coordenação \cite{Barroso}; até para medição remota, armazenamento, processamento e visualização de informações químicas \cite{Vega}.
 
-O pesquisador Cézar Taurion da Universidade de São Paulo explica que todos os dados gerados por grandes empresas, redes sociais, sensores e dispositivos de diferentes formas formam volumes que ultrapassam a unidade dos zetabytes ou 10(elevado a 21) bytes\cite{Taurion-big-data}, compondo o que é conhecido como \textit{Big Data}.
+O pesquisador Cézar Taurion da Universidade de São Paulo explica que todos os dados gerados por grandes empresas, redes sociais, sensores e dispositivos de diferentes formas formam volumes que ultrapassam a unidade dos zetabytes ou $ 10^{21} $ bytes\cite{Taurion-big-data}, compondo o que é conhecido como \textit{Big Data}\cite{Taurion-big-data}.
 
 Taurion ainda apresenta dois conceitos de \textit{Big Data}. O primeiro se refere a um conjunto de dados cujo crescimento é exponencial e cuja dimensão está além da habilidade das ferramentas típicas de capturar, gerenciar e analisar dados\cite{Taurion-big-data}. O segundo diz que \textit{Big Data} é o termo usado pelo mercado para descrever problemas no gerenciamento de processamento de informações em grandes volumes as quais ultrapassam a capacidade das tecnologias de informações tradicionais ao longo de uma ou mais dimensões\cite{Taurion-big-data}.
 
@@ -71,22 +71,35 @@ O presente trabalho de pesquisa tem os seguintes objetivos específicos:
 
 \section {Hipótese}
 
-HBase é um sistema de banco de dados não relacional orientado a coluna, capaz de fornecer escalabilidade ilimitada e vertical; e mecanismos eficientes de gerenciamento de grandes volumes de dados georreferenciados de tempo real.
+Ao se utilizar dos recursos de software para \textit{Big Data}, como supracitado na contextualização por Oussous \cite{OUSSOUS-Big-Data}, existe a possibilidade de analisar o desempenho de uma aplicação baseada em georreferenciamento de tempo real quando aplicada ao cenário de Segurança Pública.
+
+%HBase é um sistema de banco de dados não relacional orientado a coluna, capaz de fornecer escalabilidade ilimitada e vertical; e mecanismos eficientes de gerenciamento de grandes volumes de dados georreferenciados de tempo real.
 
 \section {Justificativa}
-Muitos estudiosos no Brasil têm dado destaque à Segurança Pública como um dos pilares da Ordem Social. Mais especificamente, em Macapá, de acordo com dados do Fórum Brasileiro de Segurança Pública \cite{forumdeseguranca:2018}, a capital amapaense possui um dos piores cenários com relação à Segurança e os órgãos públicos envolvidos necessitam cada vez mais de investimentos para mudar esse cenário. Um dos investimentos que se pode fazer é na tecnologia computacional para se obter estratégias preventivas no combate ao crime das áreas urbanas.
 
-Isso porque, de acordo com o Instituto Brasileiro de Geografia e Estatística, três em cada quatro domicílios do país possuem acesso à internet\cite{IBGE-2018}.
+Com a popularização e aumento do uso de aparelhos que são detectados por localização como é o caso de telefones celulares, GPS e centrais automotivas, por exemplo, os dados de localização aumentaram consideravelmente nas últimas décadas do século XXI, o que é um desafio para o armazenamento tradicional de dados digitais\cite{Chu-Li-justifica}. 
 
-Dentre as diversas ferramentas tecnológicas desenvolvidas para auxiliar no combate da criminalidade, a Internet Of Things -- IOT, surge com uma grande diversidade de opções que podem ser adotadas pelos agentes de Segurança Pública, principalmente no que se refere a registro de informações em tempo real e tomada de decisões com base em sistemas ágeis.
+Para estudiosos como Shouwu He, Longxian Chu e Xiauying Li, existem formas de lidar com os desafios de se armazenar, gerenciar e acessar grandes volumes de dados originados por diversas fontes diferentes. Uma das soluções seria com a utilização do banco de dados HBase\cite{Chu-Li-justifica}.
 
-Aliada a internet das coisas, o registro de informações em banco de dados que possam obter um maior desempenho com um grande fluxo de dados em tempo real pode ser desempenhado com a tecnologia da Apache HBase, pois:
+Já para Jian Huang \textit{Et al}\cite{Huang-et-al-justifica}, O banco de dados HBase é um sistema de armazenamento chave/valor de código livre, então, de fácil acesso, que está sendo usado em \textit{datacenters} de grandes empresas como Facebook e Twitter devido sua portabilidade e escalabilidade massiva.  
 
-O Apache HBase é um banco de dados de código aberto NoSQL que fornece acesso de leitura/gravação em tempo real a esses grandes conjuntos de dados\cite{CETAX}
+Se o Habse for usado na saúde, de acordo com Yang jun \textit{Et al}\cite{Jim-etal-justifica}, como o foco para pesquisas e cuidados da saúde se baseia na análise de estatísticas e uso de dados em situações posteriores, o armazenamento massivo bem como a eficácia do sistema \textit{Hadoop Distributed File System} -- HDFS é a chave para se obter resultados esperados e, até mesmo, diagnósticos médicos.
 
-Dentre metodologia a ser aplicada e as respostas adquiridas na coleta de dados, pode-se apresentar uma possível ferramenta na contribuição dos esforços das forças de Segurança Pública para o combate à criminalidade e resolução de conflitos nas áreas urbanas de Macapá.
+%Muitos estudiosos no Brasil têm feito pesquisas na área de Segurança Pública, principalmente depois dos últimos anos do século XXI, pois as estatísticas de violência e criminalidade têm aumentado nas cidades brasileiras. Para a professora Moema Freire, da PUC-MG, a segurança no Brasil passou por paradigmas cujas políticas influenciaram no quadro da sensação de segurança que vivemos hoje \cite{Dutra-Freire-2009}.
+
+%Na concepção de Zhang e Ying-cong\cite{Zhang-Ying-justificativa}, o principal desafio na Segurança Pública na China é sua gerência na prevenção e emergência, demandando a utilização dos mais variados recursos urbanos, como a tecnologia computacional, mais especificamente, Internet das Coisas, \textit{Big Data}, telemetria e georreferenciamento de tempo real, o que tornam os meios mais aprimorados. 
+
+%Mais especificamente, em Macapá, de acordo com dados do Fórum Brasileiro de Segurança Pública \cite{forumdeseguranca:2018}, a capital amapaense possui um dos piores cenários com relação à Segurança e os órgãos públicos envolvidos necessitam cada vez mais de investimentos para mudar tal cenário. Um dos investimentos que se pode fazer é na tecnologia computacional para se obter estratégias preventivas no combate ao crime das áreas urbanas. Isso porque, de acordo com o Instituto Brasileiro de Geografia e Estatística, três em cada quatro domicílios do país possuem acesso à internet\cite{IBGE-2018}.
+
+%Dentre as diversas ferramentas tecnológicas desenvolvidas para auxiliar no combate da criminalidade, a Internet Of Things -- IOT, surge com uma grande diversidade de opções que podem ser adotadas pelos agentes de Segurança Pública, principalmente no que se refere a registro de informações em tempo real e tomada de decisões com base em sistemas ágeis.
+
+%Aliada a internet das coisas, o registro de informações em banco de dados que possam obter um maior desempenho com um grande fluxo de dados em tempo real pode ser desempenhado com a tecnologia da Apache HBase, pois:
+
+%O Apache HBase é um banco de dados de código aberto NoSQL que fornece acesso de leitura/gravação em tempo real a esses grandes conjuntos de dados\cite{CETAX}
+
+%Dentre metodologia a ser aplicada e as respostas adquiridas na coleta de dados, pode-se apresentar uma possível ferramenta na contribuição dos esforços das forças de Segurança Pública para o combate à criminalidade e resolução de conflitos nas áreas urbanas de Macapá.
  
-Pelo motivo supracitado, apresenta-se no presente trabalho uma abordagem computacional, utilizando tecnologias correlacionadas de Internet Das Coisas, Georreferenciamento e \textit{Big Data} a fim de experimentar ferramentas digitais para uso das forças de Segurança Pública, no caso aqui abordado, a Guarda Civil Municipal de Macapá.
+%Pelo motivo supracitado, apresenta-se no presente trabalho uma abordagem computacional, utilizando tecnologias correlacionadas de Internet Das Coisas, Georreferenciamento e \textit{Big Data} a fim de experimentar ferramentas digitais para uso das forças de Segurança Pública, no caso aqui abordado, a Guarda Civil Municipal de Macapá.
 
 \section {Metodologia}
 Para o desenvolvimento e experimentação do trabalho proposto serão utilizados procedimentos metodológicos divididos em duas etapas. O referencial bibliográfico e a experimentação científica.
